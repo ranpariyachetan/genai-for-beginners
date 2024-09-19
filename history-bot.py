@@ -39,4 +39,4 @@ while(question.lower() != "exit"):
 
     messages.append({'role': 'assistant', 'content': prompt_result})
 
-    question = input("\nWhat else you want to know?:")
+    question = input("\nWhat else you want to know?: ")
